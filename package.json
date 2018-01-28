@@ -1,0 +1,24 @@
+{
+  "name": "parseljs-example",
+  "version": "1.0.0",
+  "description": "a sample project to test parceljs",
+  "main": "index.tsx",
+  "repository": "https://github.com/serayuzgur/parceljs-example",
+  "author": "Seray Uzgur <serayuzgur@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "autoprefixer": "7.2.5",
+    "preact": "8.2.7",
+    "preact-compat": "3.18.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "1.6.1",
+    "babel-preset-preact": "1.1.0",
+    "parcel-bundler": "1.5.1"
+  }
+}
