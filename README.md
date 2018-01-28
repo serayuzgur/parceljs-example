@@ -22,5 +22,5 @@ yarn start
 ```
 or
 ```bash
-npm star
+npm start
 ```
